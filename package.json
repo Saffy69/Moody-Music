@@ -6,6 +6,7 @@
     "type":"commonjs",
     "scripts": {
         "start": "nodemon index.js",
+        "build":"echo success",
         "lint": "eslint .",
         "lint:fix": "eslint --fix .",
         "p": "prettier . --write",
