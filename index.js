@@ -102,6 +102,7 @@ client.distube
     message.channel.send(`${client.emotes.error} | No result found for \`${query}\`!`)
   )
   .on('finish', queue => queue.textChannel.send('Finished!'))
+
 // // DisTubeOptions.searchSongs = true
 // .on("searchResult", (message, result) => {
 //     let i = 0
